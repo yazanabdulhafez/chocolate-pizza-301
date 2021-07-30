@@ -1,0 +1,184 @@
+              @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+              @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+              body {
+                width: 960px;
+                margin: 0 auto;
+              }
+              
+              .flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+              }
+              
+              .headerLeft {
+                display: flex;
+                gap: 10px;
+              }
+              
+              .headerLeft .beside p:first-child {
+                font-family: 'Yellowtail', cursive;
+                font-size: 2rem;
+                font-weight: bold;
+              }
+              
+              .headerLeft .beside p:nth-child(2) {
+                color: grey;
+                text-transform: uppercase;
+              }
+              
+              nav a {
+                text-decoration: none;
+              }
+              
+              nav a:nth-child(6) {
+                margin-right: 5px;
+              }
+              
+              header hr {
+                height: 10px;
+                background: url(../img/hr-img.png)
+              }
+              /* ///////////////////// main part of page ////////////////////////  */
+              
+              main h2 {
+                margin-top: 50px;
+                font-size: 40px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 700;
+                padding-bottom: 10px;
+              }
+              
+              .mainFlex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                font-family: 'Work Sans', sans-serif;
+                font-weight: 400;
+                color: grey;
+                margin-bottom: 25px;
+              }
+              
+              .printPart {
+                cursor: pointer;
+              }
+              
+              .heroImage img {
+                width: 100%;
+              }
+              
+              .paragraphContainer {
+                margin-top: 25px;
+                line-height: 1.5;
+                font-size: 20px;
+              }
+              
+              .paragraphContainer p {
+                text-indent: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: grey;
+                font-weight: bold;
+              }
+              
+              .menu {
+                display: flex;
+                gap: 150px;
+                background: url(../img/list-bg.png)no-repeat;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                font-family: 'Patrick Hand', cursive;
+                font-size: 30px;
+                background-size: 100%;
+                height: 300px;
+                padding-top: 40px;
+                padding-bottom: 10px;
+                color: rgb(46, 43, 43);
+              }
+              
+              .menu-left {
+                padding-left: 60px;
+                width: 300px;
+              }
+              
+              .menu-right {
+                margin-left: 60px;
+                width: max-content;
+              }
+              
+              input[type='checkbox']:checked+label {
+                text-decoration: line-through;
+              }
+              
+              main hr {
+                height: 10px;
+                background: url(../img/hr-img.png)
+              }
+              
+              .feedback {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 100px;
+              }
+              
+              .feedback div:first-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+              }
+              
+              .aboutAouther h3 {
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding-bottom: 5px;
+              }
+              
+              .aboutAouther p {
+                color: rgb(59, 56, 56);
+              }
+              
+              #shareRicepeBtn {
+                width: 190px;
+                text-align: center;
+                font-size: 15px;
+                height: 50px;
+                margin-top: 10px;
+                color: #fff;
+                border: none;
+                background: #f44336;
+                cursor: pointer;
+              }
+              /* /////////////////// footer part ////////////////////// */
+              
+              footer .hrPart {
+                display: flex;
+                justify-content: space-between;
+                gap: 60px;
+              }
+              
+              footer hr {
+                border-top: 6px black;
+                width: 50%;
+              }
+              
+              footer img {
+                position: relative;
+                left: 459px;
+                transform: translateY(-75%);
+                margin-bottom: 15px;
+              }
+              
+              .foot-text {
+                margin-bottom: 60px;
+              }
+              
+              .foot-text p {
+                text-align: center;
+                line-height: 0.2;
+                color: grey;
+              }
